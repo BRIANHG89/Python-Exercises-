@@ -1,0 +1,10 @@
+#agregar un elemento al ultimo del indice de arrays 
+
+from array import *
+array_num = array('i', [1, 3, 5, 7, 9])
+print("Original array: "+str(array_num))
+print("Append 11 at the end of the array:")
+#add element
+array_num.append(11)
+#output array_num
+print("New array: "+str(array_num))
